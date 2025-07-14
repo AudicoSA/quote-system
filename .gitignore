@@ -1,0 +1,44 @@
+# Next.js
+/.next/
+/out/
+
+# Prisma
+/prisma/migrations/
+/prisma/dev.db
+/prisma/*.db-journal
+.env
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# IDE-specific files
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# MacOS system files
+.DS_Store
+
+# Test outputs
+coverage/
+
+# ESLint cache
+.eslintcache
+
+# Tailwind CSS
+*.log
